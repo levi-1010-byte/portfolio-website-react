@@ -7,7 +7,7 @@ const VideoPlayer = ({ id, publicId, ...props }) => {
   const cloudinaryRef = useRef();
   const playerRef = useRef();
   const cloudName = process.env.REACT_APP_CLOUDINARY_CLOUD_NAME;
-  console.log(cloudName);
+ 
 
   // Store the Cloudinary window instance to a ref when the page renders
 
@@ -20,7 +20,7 @@ const VideoPlayer = ({ id, publicId, ...props }) => {
       cloud_name: cloudName,
       secure: true
     });
-  }, []);
+  }, [cloudName]);
 
   return (
     <div style={{ width: '100%', aspectRatio: `${props.width} / ${props.height}`}}>
