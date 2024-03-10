@@ -9,7 +9,7 @@ const ImagePlayer = ({ productId }) => {
 
 
     // Construct public IDs based on the folder structure and filename
-    const imagePublicID = 'assets/images/post_25-09_lndvh8';
+    
     
   
     // Construct Cloudinary image and video objects
