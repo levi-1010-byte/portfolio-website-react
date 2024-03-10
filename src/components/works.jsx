@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import ImageGallery from './project_images';
-import VideoGallery from './project_videos';
+
 import Navbar from './navbar';
 import ImagePlayer from './ImagePlayer';
 import VideoPlayer from './videoplayer';
