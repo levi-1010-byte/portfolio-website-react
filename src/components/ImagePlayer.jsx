@@ -1,6 +1,6 @@
 import { Cloudinary } from "@cloudinary/url-gen";
-import { AdvancedImage,AdvancedVideo } from '@cloudinary/react';
-import { fill } from "@cloudinary/url-gen/actions/resize";
+import { AdvancedImage} from '@cloudinary/react';
+
 
 const ImagePlayer = ({ productId }) => {
   // Replace 'your_cloud_name' with your actual Cloudinary cloud name
