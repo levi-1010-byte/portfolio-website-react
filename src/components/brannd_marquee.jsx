@@ -44,9 +44,9 @@ const BrandsSlider = () => {
       <div className="mx-auto w-full max-w-5xl bg-white dark:bg-transparent my-2">
         <div className="text-center justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5">
           {brandImages.map((image, index) => (
-            <a key={index} target="_blank" className="group relative overflow-hidden border-gradient">
+            <div key={index} target="_blank" className="group relative overflow-hidden border-gradient">
              <ImagePlayer productId={image.public_id}/>
-            </a>
+            </div>
           ))}
         </div>
       </div>
