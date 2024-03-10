@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { AdvancedImage, lazyload, placeholder } from '@cloudinary/react';
+
 import ImagePlayer from './ImagePlayer';
 
 const BrandsSlider = () => {
   const [brandImages, setBrandImages] = useState([]);
-  const cloudName = process.env.REACT_APP_CLOUDINARY_CLOUD_NAME;
-  const folder = 'brands_images'; // Replace with your actual Cloudinary folder name
+
 
   useEffect(() => {
     // Manually input public IDs for images
