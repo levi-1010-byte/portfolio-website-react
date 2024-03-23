@@ -25,6 +25,17 @@ const Work = (  ) => {
     const videoPublicIds = [
       'assets/videos/enoblereel_tshirt_tqykmv',
       'assets/videos/enblereel01-03_z4wtyy',
+'assets/videos/womensdayreeldubai-_1_iinumg',
+     'assets/videos/omanmuscat08-12_ajowbv',
+     'assets/videos/dubaireelhightransition8th_a5j7se',
+     'assets/videos/inopticsreel15-12_bcbyo6',
+     'assets/videos/Comp1_ah8fff',
+     'assets/videos/enoblereel-2ndopt_b9w3g1',
+     'assets/videos/gostor_funjlm',
+     'assets/videos/updatedlogoinopticsreel_pefpkr',
+      'assets/videos/makemytrip_drabxt',
+      'assets/videos/arch.reel_acllkz',
+      'assets/videos/enoblereel_tshirt_fh1zpr',
       // Add more video public IDs as needed
     ];
     setVideoPublicIDs(videoPublicIds);
